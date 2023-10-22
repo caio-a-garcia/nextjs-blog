@@ -3,6 +3,7 @@ import Date from '../../components/date';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import utilStyles from '../../styles/utils.module.css';
+import { GetStaticProps, GetStaticPaths } from 'next';
 
 
 export default function Post({ postData }) {
